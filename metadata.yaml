@@ -1,0 +1,8 @@
+project_type: standalone
+
+auth:
+  mode: local
+  require_authentication: false
+  username_password_enabled: false
+project_uuid: 00680218ff8e4fb18bf7b955b64ce970
+help_improve_mage: true

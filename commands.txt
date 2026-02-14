@@ -1,0 +1,46 @@
+# Install Python and pip
+
+sudo apt-get update
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo python3 get-pip.py
+
+```
+if you get an error like × This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+Then use:
+sudo apt install python3-pip
+```
+
+# Install Mage
+sudo pip3 install mage-ai
+
+```
+if you get an error like × This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+Then use a a Virtual Environment: (similar for others also)
+1. sudo apt install python3-venv
+2. python3 -m venv myenv
+3. source myenv/bin/activate
+4. pip install mage-ai
+```
+
+# Install Pandas
+sudo pip3 install pandas
+
+# Install Google Cloud Library
+sudo pip3 install google-cloud
+
+sudo pip3 install google-cloud-bigquery
+
